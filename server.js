@@ -53,4 +53,4 @@ app.post('/api/cards', (req, res) => {
     const filename = `${newId}_${cardData.nome.toLowerCase().replace(/\s+/g, '_')}.json`;
 
     const cardFilePath = path.join
-    
+})})
