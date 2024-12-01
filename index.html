@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Criar Novo Card</h1>
+  <form id="cardForm">
+    <label for="imagem">URL da Imagem:</label>
+    <input type="text" id="imagem" required><br>
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" required><br>
+
+    <label for="interpretacao">Interpretação:</label>
+    <textarea id="interpretacao" required></textarea><br>
+
+    <label for="comentario">Comentário:</label>
+    <textarea id="comentario" required></textarea><br>
+
+    <label for="regras">Regras de Reconhecimento:</label>
+    <textarea id="regras" required></textarea><br>
+
+    <label for="cenarios">Cenários:</label>
+    <textarea id="cenarios" required></textarea><br>
+
+    <label for="flexibilidade">Flexibilidade:</label>
+    <textarea id="flexibilidade" required></textarea><br>
+
+    <button type="submit">Criar Card</button>
+  </form>
+
+  <h2>Cards Criados</h2>
+  <div class="card-container">
+    <!-- Os cartões serão gerados aqui -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
